@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Job Seeker User Page
 
-## Getting Started
+A modern web application built with cutting-edge technologies to provide an optimal user experience for job searching.
 
-First, run the development server:
+## 🚀 Demo
 
+The application is live at: [https://jobseeker-user-page-57m5swmnc-adis7102s-projects.vercel.app/](https://jobseeker-user-page-57m5swmnc-adis7102s-projects.vercel.app/)
+
+## 🛠️ Tech Stack
+
+- **Framework:** Next.js 15
+- **Styling:** Tailwind CSS
+- **Language:** TypeScript
+- **Deployment:** Vercel
+
+## ✨ Features
+
+- Server-side rendering for optimal performance
+- Mobile-friendly responsive design
+- Type-safe development with TypeScript
+- Modern styling with Tailwind CSS
+
+## 📋 Prerequisites
+
+Make sure you have installed:
+
+- Node.js 18.17 or higher
+- npm or yarn or pnpm
+
+## 🔧 Installation
+
+1. Clone this repository
+```bash
+git clone <repository-url>
+cd jobseeker-user-page
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+3. Run the development server
 ```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open your browser and navigate to [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To create a production build:
 
-## Learn More
+```bash
+npm run build
+npm run start
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project is deployed using Vercel. To deploy your own version:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Push your code to a GitHub repository
+2. Import the project on [Vercel](https://vercel.com)
+3. Vercel will automatically detect Next.js and deploy it
 
-## Deploy on Vercel
+## 📁 Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+.
+├── app/                # App directory (Next.js 15)
+├── components/         # Reusable components
+├── public/            # Static assets
+├── styles/            # Global styles
+├── types/             # TypeScript type definitions
+└── package.json       # Project dependencies
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👨‍💻 Author
+
+Created by [adis7102](https://github.com/adis7102)
+
+---
+
+⭐ Don't forget to star this project if you find it useful!
