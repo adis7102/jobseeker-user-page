@@ -7,7 +7,8 @@ interface Props {
 }
 
 export default async function UserPost({ params }: Props) {
-  const response = await axios(`https://jsonplaceholder.typicode.com/users/${params.userId}/posts`);
+  const { userId } = await params;
+  const response = await axios(`https://jsonplaceholder.typicode.com/users/${userId}/posts`);
   const data: UserPostType[] = response.data;
 
   return (

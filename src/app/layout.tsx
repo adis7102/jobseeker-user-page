@@ -15,7 +15,7 @@ export default async function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="relative px-64">
+      <body className="relative px-5 md:px20 lg:px-20 xl:px-54 pb-5">
         <Notification  />
         <Navbar />
         {children}
